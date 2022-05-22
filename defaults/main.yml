@@ -167,7 +167,9 @@ adminGroup: root
 # Section 6 settings
 withoutOwnerFileDirOwner: root
 withoutGroupFilesDirGroup: root
-outputfiles: /root/ #Output dir of some command
+#  MOD - outputfiles should be /tmp/ because 6_2_6.sh is reading harcoded path to /tmp
+# outputfiles: /root/ #Output dir of some command
+outputfiles: /tmp/
 disable_autofs: true
 disable_usb: true
 install_apparmor: true
